@@ -2,6 +2,8 @@
 
 Primera versión para Android 9 (API 28) o posterior, arquitectura ARM de 32 bits.
 Pantalla nativa: seleccionar TSV/CSV, elegir período, generar, abrir, compartir y guardar PDF.
+Los datos provienen de archivos exportados de Juggluco. El lector admite
+Stream TSV/CSV y CSV con formato LibreView; no hay conexión directa al sensor ni a Juggluco.
 No solicita permiso de Internet ni acceso general al almacenamiento. Usa el selector de archivos de Android.
 
 ## Compilación

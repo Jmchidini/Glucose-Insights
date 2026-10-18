@@ -1,3 +1,11 @@
+# Herramientas e instrucciones de publicacion: solo para uso local.
+/ACTUALIZAR_GITHUB.bat
+/REVISAR_SIN_SUBIR.bat
+/Codigo/actualizar_github.bat
+/scripts/
+/GITHUB.md
+/LEEME.md
+
 # Datos e informes: nunca se publican desde esta carpeta.
 /Datos de ejemplo/
 /Informes de prueba/

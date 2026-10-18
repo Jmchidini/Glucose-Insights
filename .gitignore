@@ -1,0 +1,32 @@
+# Datos e informes: nunca se publican desde esta carpeta.
+/Datos de ejemplo/
+/Informes de prueba/
+/Originales/
+/Distribuciones/
+*.csv
+*.tsv
+*.pdf
+*.xlsx
+*.xls
+*.json
+*.zip
+*.apk
+*.aab
+*.keystore
+*.jks
+*.pem
+*.key
+.env
+.env.*
+local.properties
+__pycache__/
+*.pyc
+.gradle/
+build/
+.venv/
+venv/
+*.log
+.github-sync/
+.github-sync.lock
+Thumbs.db
+.DS_Store

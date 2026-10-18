@@ -1,0 +1,34 @@
+plugins {
+    id 'com.android.application'
+    id 'com.chaquo.python'
+}
+android {
+    namespace 'com.glucoseinsights.app'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.glucoseinsights.app'
+        minSdk 28
+        targetSdk 35
+        versionCode 1
+        versionName '0.1-prueba'
+        ndk { abiFilters 'armeabi-v7a' }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+chaquopy {
+    defaultConfig {
+        version '3.10'
+        if (System.getenv('GLUCOSE_BUILD_PYTHON')) { buildPython System.getenv('GLUCOSE_BUILD_PYTHON') }
+        pip {
+            install 'numpy==1.26.2'
+            install 'pandas==2.1.3'
+            install 'matplotlib==3.6.0'
+            install 'Pillow==9.2.0'
+            install 'reportlab==4.0.9'
+        }
+    }
+}
+dependencies { implementation 'androidx.core:core:1.12.0' }

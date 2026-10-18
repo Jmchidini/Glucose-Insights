@@ -1,0 +1,17 @@
+# Entornos / cache de Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Datos personales - por privacidad, no versionar CSVs reales de glucosa ni PDFs generados
+*.csv
+*.pdf
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="subtitle">"Tu informe de glucosa, sin Internet"</string>
+    <string name="pick_file">"1. Elegir archivo"</string>
+    <string name="choose_file">"Elegí un archivo CSV o TSV"</string>
+    <string name="period">"2. Período del informe"</string>
+    <string name="days7">"Últimos 7 días"</string>
+    <string name="days15">"Últimos 15 días"</string>
+    <string name="days30">"Últimos 30 días"</string>
+    <string name="all_days">"Todo el archivo"</string>
+    <string name="generate">"3. Generar informe"</string>
+    <string name="local_processing">"Los datos se procesan en este celular."</string>
+    <string name="open_pdf">"Abrir PDF"</string>
+    <string name="share_pdf">"Compartir PDF"</string>
+    <string name="save_copy">"Guardar una copia"</string>
+    <string name="disclaimer">"Versión de prueba. El informe sirve de apoyo para la consulta médica."</string>
+    <string name="cannot_open">"No se pudo abrir el archivo."</string>
+    <string name="too_large">"El archivo supera el tamaño admitido (20 MB)."</string>
+    <string name="generating">"Generando el informe… Mantené la app abierta; la primera vez puede tardar."</string>
+    <string name="cannot_create_folder">"No se pudo crear la carpeta de informes."</string>
+    <string name="cannot_save_pdf">"No se pudo guardar el PDF generado."</string>
+    <string name="ready">"Informe listo.\n"</string>
+    <string name="generation_failed">"No se pudo generar el informe.\n"</string>
+    <string name="cannot_read">"No se pudo leer el archivo seleccionado."</string>
+    <string name="wrong_extension">"Seleccioná un archivo con extensión .csv o .tsv."</string>
+    <string name="selected">"Archivo seleccionado. Elegí el período y generá el informe."</string>
+    <string name="saving">"Guardando copia…"</string>
+    <string name="saved">"Copia guardada."</string>
+    <string name="save_failed">"No se pudo guardar la copia: "</string>
+    <string name="report_title">"Informe de glucosa"</string>
+    <string name="share_report">"Compartir informe"</string>
+    <string name="open_report">"Abrir informe"</string>
+    <string name="no_pdf_app">"No hay una aplicación para abrir PDF. Podés guardar una copia."</string>
+    <string name="please_wait">"Esperá a que termine la generación del informe."</string>
+    <string name="language_label">"Idioma / Language"</string>
+    <string name="language_changed">"Idioma cambiado. Generá el informe para obtener el PDF en este idioma."</string>
+    <string name="save_filename">"informe-glucosa.pdf"</string>
+</resources>

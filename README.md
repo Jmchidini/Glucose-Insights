@@ -3,6 +3,15 @@
 Generador local de informes de glucosa con métricas, gráficos y exportación a PDF,
 disponible como aplicación de escritorio y como APK Android de prueba.
 
+La APK 0.2 incluye **Español / English** para la interfaz y los informes PDF.
+El idioma se elige en la pantalla principal y queda guardado para el próximo uso.
+Los cálculos y las unidades (mg/dL) son iguales en ambos idiomas.
+
+**English:** Android version 0.2 supports Spanish and English for both the app
+and PDF reports. Choose a language on the main screen; your choice is saved.
+Reports use locally processed files exported from Juggluco (Stream TSV/CSV or
+LibreView-format CSV). Glucose values and units remain the same in either language.
+
 ## Fuente de los datos
 
 Los datos utilizados para generar los informes provienen de **Juggluco**.

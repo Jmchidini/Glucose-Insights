@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="subtitle">"Your glucose report, offline"</string>
+    <string name="pick_file">"1. Choose a file"</string>
+    <string name="choose_file">"Choose a CSV or TSV file"</string>
+    <string name="period">"2. Report period"</string>
+    <string name="days7">"Last 7 days"</string>
+    <string name="days15">"Last 15 days"</string>
+    <string name="days30">"Last 30 days"</string>
+    <string name="all_days">"Whole file"</string>
+    <string name="generate">"3. Generate report"</string>
+    <string name="local_processing">"Data is processed on this phone."</string>
+    <string name="open_pdf">"Open PDF"</string>
+    <string name="share_pdf">"Share PDF"</string>
+    <string name="save_copy">"Save a copy"</string>
+    <string name="disclaimer">"Test version. The report supports consultation with a medical professional."</string>
+    <string name="cannot_open">"Could not open the file."</string>
+    <string name="too_large">"The file exceeds the size limit (20 MB)."</string>
+    <string name="generating">"Generating the report… Keep the app open; the first run may take a while."</string>
+    <string name="cannot_create_folder">"Could not create the reports folder."</string>
+    <string name="cannot_save_pdf">"Could not save the generated PDF."</string>
+    <string name="ready">"Report ready.\n"</string>
+    <string name="generation_failed">"Could not generate the report.\n"</string>
+    <string name="cannot_read">"Could not read the selected file."</string>
+    <string name="wrong_extension">"Select a file with a .csv or .tsv extension."</string>
+    <string name="selected">"File selected. Choose the period and generate the report."</string>
+    <string name="saving">"Saving a copy…"</string>
+    <string name="saved">"Copy saved."</string>
+    <string name="save_failed">"Could not save the copy: "</string>
+    <string name="report_title">"Glucose report"</string>
+    <string name="share_report">"Share report"</string>
+    <string name="open_report">"Open report"</string>
+    <string name="no_pdf_app">"No app is available to open PDFs. You can save a copy."</string>
+    <string name="please_wait">"Please wait for the current task to finish."</string>
+    <string name="language_label">"Language / Idioma"</string>
+    <string name="language_changed">"Language changed. Generate the report to get a PDF in this language."</string>
+    <string name="save_filename">"glucose-report.pdf"</string>
+</resources>
